@@ -28,14 +28,14 @@ Start by including `grid.css` file
 
 In order to use the grid system, the grid must be inside one of the two container classes.
 
-##### Fixed Width container (size changes at breakpoints)
+#### Fixed Width container (size changes at breakpoints)
 &nbsp;
  You can create a fixed width container, that will change width at different breakpoints.
 
 ```html
 <div class="container"></div>
 ```
-##### Fluid Width Container
+#### Fluid Width Container
 &nbsp;
  You can create a fluid container, that will always be 100% width of its parent.
 
@@ -57,7 +57,7 @@ The row can be created with `.row` class. Row must be inside of the `.container`
 
 This grid system supports **12 column grid** by default. But it can be customized to your needs. 
 
-##### Change No. Of Columns In The Grid
+#### Change No. Of Columns In The Grid
 &nbsp;
 All you have to do is change the value of `--total-columns` variable inside of `.grid.css` to the number of columns you like.
 
@@ -67,7 +67,7 @@ All you have to do is change the value of `--total-columns` variable inside of `
     --total-columns: 16;  /* customized */
 }
 ```
-##### Change Vertical or Horizontal Gutter Size
+#### Change Vertical or Horizontal Gutter Size
 &nbsp;
 All you have to do is change the value of `--horizontal-gutter` or`--vertical-gutter` variable inside of `.grid.css` to the `rem` size you like.
 
@@ -80,7 +80,7 @@ All you have to do is change the value of `--horizontal-gutter` or`--vertical-gu
     --vertical-gutter: 2rem;  /* customized */
 }
 ```
-##### Equal Width Column At All Screen Sizes
+#### Equal Width Column At All Screen Sizes
 &nbsp;
 You can create an equal width column at all screen sizes by simply using `.col` class
 ```html
@@ -91,7 +91,7 @@ You can create an equal width column at all screen sizes by simply using `.col` 
   </div>    
 </div>
 ```
-##### Defining Column Size At Mobile Screen (< 576px)
+#### Defining Column Size At Mobile Screen (< 576px)
 &nbsp;
 You can define the width of a column at mobile screens by defining column size `{1-12}` after `.col-` class as `col-{1 to 12}`.
 _Note: For the grid to work properly, the number of columns must add up to 12. Or total column number when grid is customised._ 
@@ -104,7 +104,7 @@ _Note: For the grid to work properly, the number of columns must add up to 12. O
   </div>    
 </div>
 ```
-##### Defining Column Size With Breakpoints (> 576px)
+#### Defining Column Size With Breakpoints (> 576px)
 &nbsp;
 This grid system uses following media breakpoints.
 
@@ -128,7 +128,7 @@ _Note: Whatever the column size, it will be applied from that screen size and up
 ```
 ### Create Column Offset
 You can define the column offset size, by which column should be moved to the right side of a row.
-##### Defining Column Offset At Mobile Screen (< 576px)
+#### Defining Column Offset At Mobile Screen (< 576px)
 &nbsp;
 You can define a column offset size at a mobile screen `(< 576px)` with a class `col-offset-{1-11}`
 ```html
@@ -139,7 +139,7 @@ You can define a column offset size at a mobile screen `(< 576px)` with a class 
 </div>
 ```
 
-##### Defining Column Offset With Breakpoints (> 576px)
+#### Defining Column Offset With Breakpoints (> 576px)
 &nbsp;
 You can define the offset size at differnt breakpoints `(> 576px)` by using breakpoint label `sm, md, lg, xl` after `.col-offset-` and before size of column `1-11`. Such as `col-offset-md-5`
 
