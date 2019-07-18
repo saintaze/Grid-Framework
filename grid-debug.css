@@ -1,0 +1,10 @@
+.row {
+  background-image: linear-gradient(to right, #daf1f9, #a4d7e1);
+}
+
+[class*="col"]{
+  background-image: linear-gradient(to right, #f1d4d4, #f1c5d7);
+  padding: .8rem 1.5rem;
+  border-radius: 1px;
+  color: rgb(58, 56, 56);
+}
