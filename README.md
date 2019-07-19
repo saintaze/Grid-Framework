@@ -183,6 +183,14 @@ Start by including `grid-debug.css` file
 ```html
 <link rel="stylesheet" href="grid-debug.css">
 ```
+### Using All Three Files (``grid.css``, `reset.css`, `grid-debug.css`)
+If you intend to use all three files together, then include them in the following order.
+
+```html
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="grid.css">
+<link rel="stylesheet" href="grid-debug.css">
+```
 
 
 
