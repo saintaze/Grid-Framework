@@ -108,10 +108,12 @@ _Note: For the grid to work properly, the number of columns must add up to 12. O
 &nbsp;
 This grid system uses following media breakpoints.
 
-`sm (> 576px)`
-`md (> 768px)`
-`lg (> 992px)`
-`xl (> 1200px)`
+```
+sm (> 576px)
+md (> 768px)
+lg (> 992px)
+xl (> 1200px)
+```
 
 _Note: For screen size below `sm (< 576px)` no breakpoint label is required._
 
