@@ -2,7 +2,6 @@
 The project includes a _12-column grid-framework_ & _css reset._
 
 ##### Built With
-+ HTML5
 + CSS3
 
 # Author
