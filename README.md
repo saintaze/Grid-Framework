@@ -4,9 +4,6 @@ The project includes a _12-column grid-framework_ & _css reset._
 ##### Built With
 + CSS3
 
-# Author
-+ Saintaze [https://github.com/saintaze/](https://github.com/saintaze/)
-
 ## 12 Column Grid Framework
 
 It is a simple 12 column grid layout system, inspired by bootstrap. 
@@ -191,5 +188,5 @@ If you intend to use all three files together, then include them in the followin
 <link rel="stylesheet" href="grid-debug.css">
 ```
 
-
-
+# Author
+Saintaze [@saintaze](https://github.com/saintaze/)
